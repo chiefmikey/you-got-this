@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Quotes to keep you going",
   "devDependencies": {
-    "@mikey-pro/style-guide": "^4.9.11"
+    "@mikey-pro/style-guide": "^4.9.11",
+    "eslint": "^8.10.0",
+    "prettier": "^2.5.1",
+    "stylelint": "^14.5.3"
   },
   "license": "MIT",
   "repository": {
