@@ -1,12 +1,11 @@
 {
   "name": "you-got-this",
   "version": "1.0.0",
+  "type": "module",
   "description": "Quotes to keep you going",
   "devDependencies": {
-    "@mikey-pro/style-guide": "^4.146.0",
-    "eslint": "^10.0.2",
-    "prettier": "^3.8.1",
-    "stylelint": "^17.4.0"
+    "eslint": "^10.0.0",
+    "mikey-pro": "^10.1.0"
   },
   "license": "MIT",
   "repository": {
@@ -21,11 +20,8 @@
   "contributors": [
     "Mikl Wolfe <wolfe@mikl.io> (https://mikl.io)"
   ],
-  "prettier": "@mikey-pro/prettier-config",
-  "eslintConfig": {
-    "extends": "@mikey-pro/eslint-config"
-  },
+  "prettier": "mikey-pro/prettier",
   "stylelint": {
-    "extends": "@mikey-pro/stylelint-config"
+    "extends": "mikey-pro/stylelint"
   }
 }
